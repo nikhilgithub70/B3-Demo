@@ -9,7 +9,9 @@ public class ArrayListDemo {
 		
 		List<String> list=Arrays.asList("nik","vijay","vinya");
 	
-		System.out.println(list);
+		for(String s:list) {
+			System.out.println(s);
+		}
 	}
 
 }
